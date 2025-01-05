@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   itemName: IronArmor
-  itemIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  itemIcon: {fileID: 21300000, guid: d659f7396cd57754eba78763cf986c51, type: 3}
   agility: 2
   strength: 1
   damage: 2

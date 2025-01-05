@@ -9,9 +9,11 @@ public class Item_UI : MonoBehaviour,IPointerDownHandler
     public Image itemImage;
     public Text itemAmount;
 
+    public Image dummyImage;
+
     public InventoryItem item;
 
-    public void OnPointerDown(PointerEventData eventData)
+    public virtual void OnPointerDown(PointerEventData eventData)
     {
         Inventory.instance.EquipItem(item.data);
     }
@@ -40,5 +42,7 @@ public class Item_UI : MonoBehaviour,IPointerDownHandler
         item = null;
         itemAmount.text = "";
         itemImage.sprite = null;
+
+        itemImage.sprite = dummyImage.sprite;
     }
 }
