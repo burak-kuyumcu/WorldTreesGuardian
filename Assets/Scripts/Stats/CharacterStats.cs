@@ -12,8 +12,8 @@ public class CharacterStats : MonoBehaviour
     public Stat critChance;
     public Stat critPower;
 
-
-    private float currentHealth;
+    [HideInInspector]
+    public float currentHealth;
    public virtual void Start()
     {
         currentHealth = maxHealth.GetValue();
@@ -24,6 +24,42 @@ public class CharacterStats : MonoBehaviour
     {
         
     }
+
+    public float CalculatedDamage()
+    {
+        float totalDamage=damage.GetValue()+strength.GetValue()*2;
+
+
+        if (CanCrit())
+        {
+            totalDamage = CalculatedCriticalDamage();
+        }
+        return totalDamage;
+    }
+
+    private float CalculatedCriticalDamage()
+    {
+        float totalCritDamage = (damage.GetValue() + strength.GetValue() * 2) * 1.5f;
+        return totalCritDamage;
+    }
+
+    private bool CanCrit()
+    {
+        float finalCriticalChance=critChance.GetValue()+agility.GetValue()*1.5f;
+
+        if (Random.Range(0, 100)<finalCriticalChance)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public float CalculatedCriticalChance()
+    {
+        float finalCriticalChance= critChance.GetValue() + agility.GetValue() *.25f;
+        return finalCriticalChance;
+    }
+
 
     public virtual void takeDamage(float damage)
     {

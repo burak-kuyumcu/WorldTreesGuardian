@@ -6,9 +6,11 @@ public class PlayerCombat : MonoBehaviour
 {
     public float attackSpeed = 1f;
     public float attackCountdown = 0f;
+
+    PlayerStats myStats;
     void Start()
     {
-        
+        myStats = GetComponent<PlayerStats>();  
     }
 
     // Update is called once per frame
@@ -21,7 +23,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (attackCountdown <= 0)
         {
-            targetStats.takeDamage(10f);
+            targetStats.takeDamage(myStats.CalculatedDamage());
             attackCountdown = 1f / attackSpeed;
         }
     }
