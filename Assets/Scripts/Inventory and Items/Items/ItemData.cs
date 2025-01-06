@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEditor.VersionControl;
+using System.Text;
 
 public enum EquipmentType
 {
@@ -24,6 +25,8 @@ public class ItemData : ScriptableObject
     public float damage;
     public float critChance;
     public float critPower;
+
+    protected StringBuilder sb=new StringBuilder();
 
 
     public void AddModifiers()
@@ -57,4 +60,32 @@ public class ItemData : ScriptableObject
         playerStats.critPower.RemoveModifiers(critPower);
 
     }
+
+
+    private void AddItemDescription(float _value,string _name)
+    {
+        if(_value!=0)
+        {
+            if(sb.Length > 0)
+            {
+                sb.AppendLine();
+            }
+            if(_value>0)
+            {
+                sb.Append(" "+_name+":"+_value);
+            }
+        }
+    }
+
+    public string GetDesc()
+    {
+        sb.Length = 0;
+        AddItemDescription(strength, "Strength");
+        AddItemDescription(damage, "Damage");
+        AddItemDescription(agility, "Agility");
+
+        return sb.ToString();
+    }
+
+
 }

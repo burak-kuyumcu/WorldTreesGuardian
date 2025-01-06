@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class Item_UI : MonoBehaviour,IPointerDownHandler
+public class Item_UI : MonoBehaviour,IPointerDownHandler,IPointerEnterHandler,IPointerExitHandler
 {
     public Image itemImage;
     public Text itemAmount;
@@ -12,6 +12,8 @@ public class Item_UI : MonoBehaviour,IPointerDownHandler
     public Image dummyImage;
 
     public InventoryItem item;
+
+    public ItemUI_ToolTip toolTip;
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
@@ -44,5 +46,15 @@ public class Item_UI : MonoBehaviour,IPointerDownHandler
         itemImage.sprite = null;
 
         itemImage.sprite = dummyImage.sprite;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        toolTip.ShowToolTip(item.data as ItemData);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        toolTip.HideToolTip();
     }
 }
