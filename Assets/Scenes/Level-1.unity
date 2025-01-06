@@ -5063,6 +5063,21 @@ MonoBehaviour:
   experience: 0
   experienceBar: {fileID: 1705508813}
   levelText: {fileID: 73292341}
+--- !u!114 &1014368839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014368822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30d6e2f43b7e5140ad3a55ef6bbe128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill1: {fileID: 1976143501}
+  cooldown1: 25
+  skill_1waitingTime: 10
 --- !u!1 &1021485354
 GameObject:
   m_ObjectHideFlags: 0
@@ -10046,6 +10061,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5258212880808752012, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1014368838}
+    - targetCorrespondingSourceObject: {fileID: 5258212880808752012, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1014368839}
   m_SourcePrefab: {fileID: 100100000, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

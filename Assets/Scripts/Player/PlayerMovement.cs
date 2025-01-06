@@ -7,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     Transform target;
 
-    NavMeshAgent agent;
+    [HideInInspector]
+    public NavMeshAgent agent;
 
     Animator anim;
     void Start()
