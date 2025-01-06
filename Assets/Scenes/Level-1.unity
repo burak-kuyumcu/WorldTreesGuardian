@@ -5540,6 +5540,10 @@ MonoBehaviour:
   skill1: {fileID: 1976143501}
   cooldown1: 25
   skill_1waitingTime: 10
+  skill2: {fileID: 381424040}
+  coolDown2: 7
+  skill_2waitingTime: 3
+  canMove: 0
 --- !u!114 &1014368840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5554,6 +5558,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healPotAmount: 0
   healPotText: {fileID: 0}
+--- !u!65 &1014368841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014368822}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 1.4444013, y: 1.3193917, z: 1}
+  m_Center: {x: -0.077637196, y: 1.5249679, z: 5.8986815e-10}
 --- !u!1 &1017122773
 GameObject:
   m_ObjectHideFlags: 0
@@ -11050,6 +11075,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5258212880808752012, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1014368840}
+    - targetCorrespondingSourceObject: {fileID: 5258212880808752012, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1014368841}
   m_SourcePrefab: {fileID: 100100000, guid: a64306f922234ea4e9437d01d24e1311, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

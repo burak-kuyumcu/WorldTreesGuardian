@@ -10,10 +10,23 @@ public class PlayerAbilities : MonoBehaviour
     [Header("Ability_1")]
     public Image skill1;
     public float cooldown1;
-    bool isCooldown_1=false;
-
     public float skill_1waitingTime;
 
+    [Header("Ability_2")]
+    public Image skill2;
+    public float coolDown2;
+    public float skill_2waitingTime;
+
+    bool isCooldown_1 = false;
+    bool isCooldown_2 = false;
+
+    //
+    public bool canMove;
+
+    bool canAttack2 = true;
+    bool canAttack3 = true;
+
+    //
     PlayerMovement movement;
 
     private void Awake()
@@ -44,8 +57,15 @@ public class PlayerAbilities : MonoBehaviour
             skill1.fillAmount = 0;
             isCooldown_1 = false;
         }
+
+        if(Input.GetKey(KeyCode.W) && !isCooldown_2 && canAttack2 && RageManager.instance.currentRage >= 0)
+        {
+            isCooldown_2 = true;
+            Ability_2();
+        }
     }
 
+    // ABILITY 1---------
     public void Ability_1()
     {
         movement.agent.speed = 14;
@@ -57,5 +77,14 @@ public class PlayerAbilities : MonoBehaviour
     {
         yield return new WaitForSeconds(skill_1waitingTime);
         movement.agent.speed = 6;
+    }
+
+    // ABILITY 2--------
+    public void Ability_2()
+    {
+        movement.anim.SetTrigger("SpinAttack");
+        canMove = false;
+        RageManager.instance.LoseRage(10);
+
     }
 }
