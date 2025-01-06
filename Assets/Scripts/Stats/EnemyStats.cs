@@ -10,10 +10,13 @@ public class EnemyStats : CharacterStats
     Animator anim;
     public float givenExperience=5;
 
+    LootSystem loot;
+
     public override void Start()
     {
         base.Start();
         anim = GetComponent<Animator>();
+        loot = GetComponent<LootSystem>();
     }
 
 
@@ -28,5 +31,6 @@ public class EnemyStats : CharacterStats
         PlayerManager.instance.player.GetComponent<LevelManager>().SetExperience(givenExperience);
         anim.SetTrigger("Die");
         Destroy(gameObject, 4f);
+        loot.DropItem();
     }
 }
