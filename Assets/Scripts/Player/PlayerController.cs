@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     Camera cam;
     PlayerMovement movement;
     public Interactable target;
+
+    //public Texture2D 
+
     void Start()
     {
         cam = Camera.main;

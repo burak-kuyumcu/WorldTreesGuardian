@@ -555,6 +555,8 @@ MonoBehaviour:
   radius: 2
   player: {fileID: 0}
   ItemData: {fileID: 11400000, guid: 089d99177f8ee6a4e8d3080599fc8991, type: 2}
+  cursorItem: {fileID: 2800000, guid: d0bd63dc4e8d4a845a0f198c39644e18, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!1 &90152294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,6 +1679,8 @@ MonoBehaviour:
   radius: 2
   player: {fileID: 0}
   ItemData: {fileID: 11400000, guid: bece95183655dda49a53287400fae808, type: 2}
+  cursorItem: {fileID: 2800000, guid: d0bd63dc4e8d4a845a0f198c39644e18, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!135 &345305832
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1973,6 +1977,8 @@ MonoBehaviour:
   radius: 2
   player: {fileID: 0}
   ItemData: {fileID: 11400000, guid: ef0b1a871a31c1346811b4c8bfeaf553, type: 2}
+  cursorItem: {fileID: 2800000, guid: d0bd63dc4e8d4a845a0f198c39644e18, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!135 &367902657
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2677,6 +2683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   player: {fileID: 0}
+  cursorItem: {fileID: 2800000, guid: ce683041f000c7c48b73e8fbda566384, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!65 &505745436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4170,6 +4178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 2
   player: {fileID: 0}
+  cursorItem: {fileID: 0}
+  hand: {fileID: 0}
 --- !u!114 &776092357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9961,6 +9971,8 @@ MonoBehaviour:
   - Merhaba
   - "Ben It\u0131rsu"
   namenpc: 
+  cursorItem: {fileID: 2800000, guid: 442311c923fee7a4c97faa6fdeb43d7d, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!1 &2102054251
 GameObject:
   m_ObjectHideFlags: 0

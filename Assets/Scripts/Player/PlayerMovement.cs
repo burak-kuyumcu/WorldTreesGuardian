@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public NavMeshAgent agent;
 
-    Animator anim;
+    public Animator anim;
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
