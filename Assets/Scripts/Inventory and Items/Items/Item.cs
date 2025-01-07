@@ -20,7 +20,7 @@ public class Item : Interactable
         Destroy(gameObject);
     }
 
-    private void OnMouseOver()
+   /* private void OnMouseOver()
     {
         Cursor.SetCursor(cursorItem,Vector2.zero,CursorMode.ForceSoftware); 
     }
@@ -28,6 +28,6 @@ public class Item : Interactable
     private void OnMouseExit()
     {
         Cursor.SetCursor(hand, Vector2.zero, CursorMode.ForceSoftware);
-    }
+    }*/
 
 }
