@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: LongSword
   m_EditorClassIdentifier: 
   itemType: 0
-  itemName: LongSword
-  itemIcon: {fileID: 21300000, guid: 69c60ee106879fb41ae689b2f3d3b905, type: 3}
+  itemName: Long Sword
+  itemIcon: {fileID: 21300000, guid: 55c63fbeb8c9526408ae4a1ca673e497, type: 3}
   agility: 2
   strength: 2
   damage: 2
