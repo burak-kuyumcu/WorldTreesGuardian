@@ -2721,7 +2721,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d1f0443ebb19d424cbeaf74016b14bf6, type: 2}
     - target: {fileID: 919132149155446097, guid: e52d423283b25b54885c70bca9acf240, type: 3}
       propertyPath: m_Name
-      value: Silver_Blade_0107232750_texture
+      value: sword
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6793,6 +6793,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065086432}
   m_CullTransparentMesh: 1
+--- !u!1001 &1074447306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25.27657
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.839832
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.90309
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4326282
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000001633126
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.90157247
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000034033416
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 128.731
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 02425c9605a68344ba250eb5794e09ff, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      propertyPath: m_Name
+      value: armor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1074447308}
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+--- !u!1 &1074447307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+  m_PrefabInstance: {fileID: 1074447306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1074447308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074447307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8119883cf259e824e9a09f7a5068c224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0
+  player: {fileID: 0}
+  ItemData: {fileID: 0}
+  cursorItem: {fileID: 0}
+  hand: {fileID: 0}
 --- !u!1 &1091702126
 GameObject:
   m_ObjectHideFlags: 0
@@ -12515,3 +12601,4 @@ SceneRoots:
   - {fileID: 986697891314254393}
   - {fileID: 861453960}
   - {fileID: 441995496}
+  - {fileID: 1074447306}
