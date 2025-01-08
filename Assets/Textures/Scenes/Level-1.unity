@@ -1915,6 +1915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barbar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Controller
       value: 
@@ -4895,6 +4899,10 @@ PrefabInstance:
       value: Enemy_Skeleton (2)
       objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
@@ -5383,6 +5391,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5894,13 +5906,16 @@ Transform:
   m_GameObject: {fileID: 450411559}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.07091, y: 31.988121, z: 8.760559}
+  m_LocalPosition: {x: 197.6, y: 31.988121, z: 129.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2034302871}
   - {fileID: 471696632}
   - {fileID: 675265298}
+  - {fileID: 1597280243}
+  - {fileID: 1721152184}
+  - {fileID: 759919346}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &451574932 stripped
@@ -5963,6 +5978,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6402,7 +6421,7 @@ Transform:
   m_GameObject: {fileID: 471696631}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.9, y: -1.5, z: 97.7}
+  m_LocalPosition: {x: 227.85, y: -1.5, z: 236.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7233,6 +7252,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Name
       value: a_barbaric_giant_with_0108090709_texture@Idle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Controller
@@ -8829,6 +8852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barbar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Controller
       value: 
@@ -9279,7 +9306,7 @@ Transform:
   m_GameObject: {fileID: 675265297}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 66.9, y: -1.9793093, z: 68.8}
+  m_LocalPosition: {x: 292.84, y: -1.9793093, z: 240.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10908,6 +10935,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2c668de5b7918c8498b6b8fdcdf68ebe, type: 3}
   m_PrefabInstance: {fileID: 769311083}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &759919345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759919346}
+  m_Layer: 0
+  m_Name: WayPoint6
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759919346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759919345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.84, y: -1.9793093, z: 240.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 450411560}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &760079306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2c668de5b7918c8498b6b8fdcdf68ebe, type: 3}
@@ -13007,6 +13065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13209,15 +13271,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.85202
+      value: -16.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1922207
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 57.34651
+      value: 57.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13254,6 +13316,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Name
       value: barbar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Controller
@@ -13434,6 +13500,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Name
       value: barbar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Controller
@@ -15354,6 +15424,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -16041,6 +16115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -16363,6 +16441,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Name
       value: a_barbaric_giant_with_0108090709_texture@Idle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Controller
@@ -17484,6 +17566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -17855,6 +17941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barbar (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_Controller
       value: 
@@ -18030,6 +18120,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18547,6 +18641,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19739,6 +19837,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
       propertyPath: m_Name
       value: a_humanoid_werewolf_w_0108073059_texture@Idle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21191,11 +21293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c065f6eadd72794cbc83699a7ec6ff3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.99
+      value: 30.76
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c065f6eadd72794cbc83699a7ec6ff3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 252.32
+      value: 253.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2c065f6eadd72794cbc83699a7ec6ff3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21470,6 +21572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: a_barbaric_giant_with_0108090709_texture@Idle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Controller
       value: 
@@ -21630,6 +21736,37 @@ MonoBehaviour:
   player: {fileID: 0}
   cursorItem: {fileID: 2800000, guid: 24d21e256b498a944a00e2527ed7618c, type: 3}
   hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
+--- !u!1 &1597280242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1597280243}
+  m_Layer: 0
+  m_Name: WayPoint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1597280243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597280242}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.84, y: -1.9793093, z: 240.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 450411560}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1608118537
 GameObject:
   m_ObjectHideFlags: 0
@@ -22569,6 +22706,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Name
       value: a_barbaric_giant_with_0108090709_texture@Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
       propertyPath: m_Controller
@@ -23539,6 +23680,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1157991899}
   m_SourcePrefab: {fileID: 100100000, guid: 1bf3f1666603ce349a20e8983f54d411, type: 3}
+--- !u!1 &1721152183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1721152184}
+  m_Layer: 0
+  m_Name: WayPoint5
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1721152184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721152183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 292.84, y: -1.9793093, z: 240.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 450411560}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1721160778
 GameObject:
   m_ObjectHideFlags: 0
@@ -26882,7 +27054,7 @@ Transform:
   m_GameObject: {fileID: 2034302870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.050001, y: -2.229999, z: 61.910004}
+  m_LocalPosition: {x: 264.4, y: -2.229999, z: 212.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27902,6 +28074,10 @@ PrefabInstance:
     - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
       propertyPath: m_Name
       value: Enemy_Skeleton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100078, guid: 5a35c5f0a89b9654d897ccd7c8f81bd0, type: 3}
       propertyPath: m_TagString
