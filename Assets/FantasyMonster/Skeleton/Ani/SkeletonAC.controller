@@ -396,6 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea385769e117b3478fe7dc506d8cdc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agroDistance: 0
 --- !u!1101 &5903630786408549308
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
