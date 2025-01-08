@@ -22842,8 +22842,23 @@ MonoBehaviour:
   radius: 2
   player: {fileID: 0}
   dialouge:
-  - "Gen\xE7 sava\u015F\xE7\u0131 bunlar\u0131 al yolculu\u011Funda laz\u0131m olur"
-  - "Yolun a\xE7\u0131k olsun. D\xFCnya A\u011Fac\u0131n\u0131 kurtar"
+  - "Er Tigin, obam\u0131z kara yaz\u0131ya d\xFC\u015Ft\xFC. Emegenler Kutsal Ya\u015Fam
+    A\u011Fac\u0131\u2019n\u0131 sar\u0131p sarmalad\u0131lar. E\u011Fer tez elden
+    \xE7are bulunmazsa, a\u011Fa\xE7 g\xF6\u011Fs\xFCnden kesilip d\xFC\u015Fecektir"
+  - "Obam\u0131z\u0131n alp erleri d\xFC\u015Fmanla cenk ederken birer birer yere
+    d\xFC\u015Ft\xFCler. Bilirim ki sen, bize Tengri\u2019nin g\xF6nderdi\u011Fi
+    kutlu bir elsin"
+  - "Emegen soyunu bozguna u\u011Fratman\u0131n tek yolu, \xDClgen\u2019in ate\u015F
+    oca\u011F\u0131nda d\xF6vd\xFC\u011F\xFC kutlu y\xFCz\xFCkt\xFCr. Bu y\xFCz\xFCk,
+    sana kudret verir; d\xFC\u015Fman\u0131 ezip ge\xE7ersin."
+  - "Kutlu y\xFCz\xFCk, sol yoldan gidilesi yerde sakl\u0131d\u0131r. Amma velakin
+    sak\u0131n gafil olma! O y\xFCz\xFCk, \u0130tbarak soyundan gelen vah\u015Fi
+    t\xFCredilerce korunu"
+  - "E\u011Fer o kutlu y\xFCz\xFC\u011F\xFC al\u0131rsan, Ya\u015Fam A\u011Fac\u0131\u2019m\u0131z\u0131n
+    k\xF6klerine can suyu d\xF6kebiliriz. Umut, o vakit ye\u015Ferir"
+  - "Yan\u0131nda, senin i\xE7in saklanan e\u015Fyalar\u0131 al. O e\u015Fyalar,
+    sana yolunda g\xFC\xE7 ve koruma verecektir."
+  - "Yolun ak, baht\u0131n a\xE7\u0131k ola, alp eren! Tengri seni korusun"
   namenpc: "K\xF6y\xFCn \u015Eefi"
   cursorItem: {fileID: 2800000, guid: 442311c923fee7a4c97faa6fdeb43d7d, type: 3}
   hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
