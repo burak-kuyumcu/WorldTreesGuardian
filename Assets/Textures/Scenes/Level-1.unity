@@ -9357,14 +9357,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 0dd283c74b44d724bb2928d24ed4872c, type: 2}
     - target: {fileID: 5866666021909216657, guid: ff4f290150e80f940bc8555791bcc7cd, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandIndex1'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-        'mixamorig:RightArm'\n\tTransform 'mixamorig:LeftLeg'\n\tTransform 'mixamorig:LeftShoulder'\n\tTransform
-        'mixamorig:RightHandIndex3'\n\tTransform 'mixamorig:RightFoot'\n\tand more
-        ...\n\tFrom animation clip 'Crouched Walking'\n\tFrom animation clip 'Unarmed
-        Run Forward'\n\tFrom animation clip 'Death'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12224,6 +12217,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325688913}
   m_CullTransparentMesh: 1
+--- !u!1001 &1327383337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.955835
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.211367
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6527228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7575969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 98.506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4367580887766222965, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 54c62a108e8541740bff20e86f8cf278, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
+      propertyPath: m_Name
+      value: a_humanoid_werewolf_w_0108073059_texture@Idle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6ddce67945f492f43b723ca54ef9b2bc, type: 3}
 --- !u!1 &1336539759
 GameObject:
   m_ObjectHideFlags: 0
@@ -19016,3 +19070,4 @@ SceneRoots:
   - {fileID: 315589007}
   - {fileID: 1204279817}
   - {fileID: 2122701747}
+  - {fileID: 1327383337}
