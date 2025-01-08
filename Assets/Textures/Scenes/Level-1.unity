@@ -6825,7 +6825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 98d3c94eb7ddcc547a31e1b181a2a35a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 29.36544
+      value: 30.068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 98d3c94eb7ddcc547a31e1b181a2a35a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15605,6 +15605,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1667989117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.695969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.695969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.695969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 53.561
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7303327
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6830917
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.171
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3811874163692911234, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cc77dc6f4598d4446924039e8a25b02b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
+      propertyPath: m_Name
+      value: a_barbaric_giant_with_0108090709_texture@Idle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bc06aea718eafd41b2e7f195a0ad371, type: 3}
 --- !u!1001 &1669693621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20317,3 +20390,4 @@ SceneRoots:
   - {fileID: 1204279817}
   - {fileID: 2122701747}
   - {fileID: 1327383337}
+  - {fileID: 1667989117}
