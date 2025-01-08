@@ -22600,11 +22600,11 @@ MonoBehaviour:
   radius: 2
   player: {fileID: 0}
   dialouge:
-  - sa
-  - as
-  namenpc: "k\xF6y\xFCn \u015Fefi"
-  cursorItem: {fileID: 0}
-  hand: {fileID: 0}
+  - "Gen\xE7 sava\u015F\xE7\u0131 bunlar\u0131 al yolculu\u011Funda laz\u0131m olur"
+  - "Yolun a\xE7\u0131k olsun. D\xFCnya A\u011Fac\u0131n\u0131 kurtar"
+  namenpc: "K\xF6y\xFCn \u015Eefi"
+  cursorItem: {fileID: 2800000, guid: 442311c923fee7a4c97faa6fdeb43d7d, type: 3}
+  hand: {fileID: 2800000, guid: 42ec8a0e710138343a271d732299cfb6, type: 3}
 --- !u!65 &1622055571
 BoxCollider:
   m_ObjectHideFlags: 0
