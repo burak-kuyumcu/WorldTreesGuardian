@@ -15,8 +15,8 @@ MonoBehaviour:
   itemType: 2
   itemName: "Kutsal Y\xFCz\xFCk"
   itemIcon: {fileID: 21300000, guid: 34c732b9ae15b4548a413b51e83ac96c, type: 3}
-  agility: 0
-  strength: 0
-  damage: 0
-  critChance: 0
-  critPower: 0
+  agility: 20
+  strength: 20
+  damage: 20
+  critChance: 20
+  critPower: 20
