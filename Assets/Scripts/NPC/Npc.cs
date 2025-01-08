@@ -17,7 +17,7 @@ public class Npc : Interactable
         DialogSystem.instance.AddNewDialouge(dialouge,namenpc);   
     }
 
-    private void OnMouseOver()
+   /* private void OnMouseOver()
     {
         Cursor.SetCursor(cursorItem, Vector2.zero, CursorMode.ForceSoftware);
     }
@@ -25,5 +25,5 @@ public class Npc : Interactable
     private void OnMouseExit()
     {
         Cursor.SetCursor(hand, Vector2.zero, CursorMode.ForceSoftware);
-    }
+    }*/
 }
